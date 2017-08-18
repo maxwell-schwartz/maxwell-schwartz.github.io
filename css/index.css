@@ -1,0 +1,43 @@
+body {
+    background-color: #004d4d;
+}
+
+.navbar-default {
+    background-color: #3399ff;
+}
+
+.nav.navbar-nav li a {
+   color: black;
+   font-size: 18px;
+   font-weight: bold;
+ }
+
+.nav.navbar-nav li a:hover {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #99ccff;
+}
+
+.dropdown-menu li a:hover {
+    background-color: green;
+}
+
+#CARL {
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+#outText {
+    padding-bottom: 10px;
+}
+
+#thisForm {
+    text-align: center;
+}
+
+#pb {
+    text-align: center;
+    padding-bottom: 10px;
+}

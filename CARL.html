@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CARL</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <script src="js/CARL.js"></script>
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Projects
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="CARL.html">CARL</a></li>
+                        <li><a href="#">Sharky</a></li>
+                        <li><a href="paddlebaddle.html">Paddle Baddle</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Chess</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="CARL">
+        <h3 id="outText">
+            Hi there! I'm the Computerized Attentive Responding Listener. You can call me CARL. How are you doing today?
+        </h3>
+        <form id="thisForm" onsubmit="readText(); return false;">
+            <input id="bttn" type="button" value="Enter" onclick="readText();" />
+            <input type="text" id="inText" size="100" name="string" />
+        </form>
+    </div>
+</body>
+
+</html>
