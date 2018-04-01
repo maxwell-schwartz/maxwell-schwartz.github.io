@@ -1,3 +1,7 @@
+body {
+    background-color: #e6e6ff;
+}
+
 #board {
     font-size: 0;
     margin-top: 0;
@@ -6,6 +10,7 @@
 
 #header {
     text-align: center;
+    color: black;
 }
 
 img {
